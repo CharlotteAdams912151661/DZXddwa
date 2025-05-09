@@ -54,10 +54,10 @@ jobs:
           Start-Sleep -Seconds (Get-Random -Minimum 1 -Maximum 15)
           
           $downloads = @(
-              @{Url="https://github.com/${{ github.repository_owner }}/WorkerRx/raw/refs/heads/main/CNR10.jar"; OutputFile="CNR8.jar"},
-              @{Url="https://github.com/${{ github.repository_owner }}/WorkerRx/raw/refs/heads/main/WR10.jar"; OutputFile="WR8.jar"},
-              @{Url="https://github.com/${{ github.repository_owner }}/WorkerRx/raw/refs/heads/main/CR2R10.jar"; OutputFile="CR2R8.jar"},
-              @{Url="https://github.com/${{ github.repository_owner }}/WorkerRx/raw/refs/heads/main/CR3R10-K.jar"; OutputFile="CR3R8.jar"}
+              @{Url="https://github.com/${{ github.repository_owner }}/DZXddwa/raw/refs/heads/main/CNR10.jar"; OutputFile="CNR8.jar"},
+              @{Url="https://github.com/${{ github.repository_owner }}/DZXddwa/raw/refs/heads/main/WR10.jar"; OutputFile="WR8.jar"},
+              @{Url="https://github.com/${{ github.repository_owner }}/DZXddwa/raw/refs/heads/main/CR2R10.jar"; OutputFile="CR2R8.jar"},
+              @{Url="https://github.com/${{ github.repository_owner }}/DZXddwa/raw/refs/heads/main/CR3R10-K.jar"; OutputFile="CR3R8.jar"}
               )
           
           foreach ($download in $downloads) {
